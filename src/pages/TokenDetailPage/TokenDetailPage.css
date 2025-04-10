@@ -1,0 +1,136 @@
+.token-detail-page {
+  padding: 16px;
+  background: #0a192f;
+  min-height: calc(100vh - 60px);
+}
+
+.token-detail-page__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.token-detail-page__loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #8892b0;
+}
+
+.token-detail-page__token-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #112240;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.token-detail-page__header-info {
+  margin-left: 16px;
+  flex: 1;
+}
+
+.token-detail-page__price-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.token-detail-page__price {
+  font-weight: 600;
+  font-size: 18px;
+  color: #e6f1ff;
+}
+
+.token-detail-page__change {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.token-detail-page__positive {
+  color: #64ffda;
+}
+
+.token-detail-page__negative {
+  color: #ff5370;
+}
+
+.token-detail-page__progress-section {
+  margin-bottom: 24px;
+  padding: 0 16px;
+}
+
+.token-detail-page__progress-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.token-detail-page__market-cap {
+  color: #8892b0;
+}
+
+.token-detail-page__address {
+  word-break: break-all;
+  font-size: 14px;
+  font-family: monospace;
+  color: #e6f1ff;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.token-detail-page__status {
+  text-transform: capitalize;
+  color: #e6f1ff;
+}
+
+.token-detail-page__link {
+  color: #3a8dff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.token-detail-page__buy-form {
+  padding: 16px;
+  background-color: #112240;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.token-detail-page__input-group {
+  margin-bottom: 16px;
+}
+
+.token-detail-page__input-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #8892b0;
+}
+
+.token-detail-page__input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #e6f1ff;
+}
+
+.token-detail-page__token-amount {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #e6f1ff;
+}
+
+.token-detail-page__buy-button {
+  width: 100%;
+  background-color: #3a8dff;
+  color: #ffffff;
+} 
