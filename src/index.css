@@ -12,21 +12,22 @@ body {
 /* Global styles to ensure consistent theming */
 :root {
   --tg-theme-bg-color: #0a192f !important;
-  --tg-theme-secondary-bg-color: #112240 !important;
+  --tg-theme-secondary-bg-color: #1e40af !important;
   --tg-theme-text-color: #e6f1ff !important;
   --tg-theme-hint-color: #8892b0 !important;
-  --tg-theme-link-color: #3a8dff !important;
-  --tg-theme-button-color: #3a8dff !important;
+  --tg-theme-link-color: #60a5fa !important;
+  --tg-theme-button-color: #60a5fa !important;
   --tg-theme-button-text-color: #ffffff !important;
 }
 
 /* Override Telegram UI components */
 .tg-section, 
 .tg-header-section {
-  background-color: #112240 !important;
+  background-color: #1e40af !important;
   border-radius: 12px;
   margin-bottom: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(10, 25, 47, 0.5);
+  border: 1px solid #60a5fa;
 }
 
 .tg-cell {
@@ -72,5 +73,14 @@ button {
 }
 
 .tg-button {
-  background-color: #3a8dff !important;
+  background-color: #60a5fa !important;
+}
+
+/* Progress bar */
+.tg-progress-track {
+  background-color: rgba(96, 165, 250, 0.2) !important;
+}
+
+.tg-progress-fill {
+  background-color: #60a5fa !important;
 }

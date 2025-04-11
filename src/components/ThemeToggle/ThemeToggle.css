@@ -10,10 +10,11 @@
 }
 
 .theme-toggle__radio-group {
-  background-color: #112240 !important;
+  background-color: #1e40af !important;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #60a5fa;
 }
 
 .theme-toggle__icon {

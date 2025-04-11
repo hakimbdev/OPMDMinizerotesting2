@@ -24,22 +24,23 @@
 
 .ton-connect-page__button {
   margin: 16px auto 0;
-  background-color: #3a8dff !important;
+  background-color: #041c3a !important;
   color: #ffffff;
   border-radius: 8px;
 }
 
 .ton-connect-page__button-connected {
   margin: 16px 24px 16px auto;
-  background-color: #000000 !important;
+  background-color: #60a5fa !important;
   color: #ffffff !important;
   border-radius: 8px;
 }
 
 /* Override the TonConnect button styles for dark theme */
 :root {
-  --toncontent-button-background: #3a8dff !important;
+  --toncontent-button-background: #60a5fa !important;
   --toncontent-button-color: #ffffff !important;
-  --toncontent-address-button-background: #112240 !important;
+  --toncontent-address-button-background: #1e40af !important;
   --toncontent-address-button-color: #e6f1ff !important;
+  --toncontent-address-button-border: 1px solid #60a5fa !important;
 }

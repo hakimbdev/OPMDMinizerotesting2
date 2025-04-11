@@ -24,9 +24,10 @@
   align-items: center;
   margin-bottom: 24px;
   padding: 16px;
-  background-color: #112240;
+  background-color: #1e40af;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #60a5fa;
 }
 
 .token-detail-page__header-info {
@@ -52,7 +53,7 @@
 }
 
 .token-detail-page__positive {
-  color: #64ffda;
+  color: #93c5fd;
 }
 
 .token-detail-page__negative {
@@ -79,7 +80,7 @@
   font-size: 14px;
   font-family: monospace;
   color: #e6f1ff;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(96, 165, 250, 0.1);
   padding: 8px;
   border-radius: 4px;
 }
@@ -90,16 +91,17 @@
 }
 
 .token-detail-page__link {
-  color: #3a8dff;
+  color: #60a5fa;
   text-decoration: none;
   cursor: pointer;
 }
 
 .token-detail-page__buy-form {
   padding: 16px;
-  background-color: #112240;
+  background-color: #1e40af;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #60a5fa;
 }
 
 .token-detail-page__input-group {
@@ -116,10 +118,10 @@
 .token-detail-page__input {
   width: 100%;
   padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(96, 165, 250, 0.3);
   border-radius: 8px;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(96, 165, 250, 0.1);
   color: #e6f1ff;
 }
 
@@ -131,6 +133,6 @@
 
 .token-detail-page__buy-button {
   width: 100%;
-  background-color: #3a8dff;
+  background-color: #60a5fa;
   color: #ffffff;
 } 

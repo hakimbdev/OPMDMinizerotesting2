@@ -11,7 +11,7 @@
 
 .my-tokens-page__connect-button {
   margin-top: 16px;
-  background-color: #3a8dff;
+  background-color: #011329;
   color: #ffffff;
 }
 
@@ -24,11 +24,12 @@
 }
 
 .my-tokens-page__summary {
-  background-color: #112240;
+  background-color: #1e40af;
   padding: 16px;
   border-radius: 12px;
   margin-bottom: 24px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #60a5fa;
 }
 
 .my-tokens-page__total-value {
@@ -76,7 +77,7 @@
 }
 
 .my-tokens-page__positive {
-  color: #64ffda;
+  color: #93c5fd;
 }
 
 .my-tokens-page__negative {
@@ -97,6 +98,6 @@
 .my-tokens-page__create-button,
 .my-tokens-page__buy-button {
   flex: 1;
-  background-color: #3a8dff;
+  background-color: #60a5fa;
   color: #ffffff;
 } 
